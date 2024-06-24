@@ -11,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features={"src/test/resources/SigninAndSignOut.feature"},
 glue="com.example.stepdefinations",
 monochrome=true,
-plugin = {"pretty", "html:target/cucumber-reports.html", "json:target/cucumber-reports.json"})
+plugin = {"pretty", "html:target/cucumber-reports.html", "json:target/cucumber-reports.json"},
+tags="Smoke" )
 	
 
 
